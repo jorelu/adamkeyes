@@ -162,7 +162,6 @@ nav {
 
 footer {
     padding: 5% 10%;
-    height: 70vh;
     color: white;
     background-color: #242424;
     background-image: url("assets/images/pattern-rings.svg");
@@ -218,4 +217,11 @@ footer h1 {
 .hr-divider-footer {
     border-top: 3px solid white;
     opacity: 100;
+}
+
+@media only screen and (min-width: 2100px) {
+    #section-1 {
+        background-size: 31%,2%, 20%;
+        background-position: -5% 13%, 54% 69%, 84% 0;
+    }
 }
