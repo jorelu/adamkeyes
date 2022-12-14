@@ -1,0 +1,221 @@
+body {
+    background-color: #151515;
+    font-size: 20px;
+}
+
+nav {
+    padding: 20px 10%;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+.button-1 {
+    text-transform: uppercase;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    padding: 0;
+    border: none;
+    padding-bottom: 10px;
+    border-bottom: 4px solid #4ee49d;
+}
+
+.button-1:hover {
+    color: grey;
+}
+
+#brand-name {
+    color: white;
+    display: inline;
+    font-size: 50px;
+}
+
+#nav-content {
+    float: right;
+}
+
+#nav-content a{
+    padding: 20px;
+}
+
+/* SECTION 1 */
+
+#section-1 {
+    height: 95vh;
+    position: relative;
+    color: white;
+    padding: 15vh 10%;
+    background-image: url("assets/images/pattern-rings.svg"),url("assets/images/pattern-circle.svg"), url("assets/images/image-profile-desktop.webp");
+    background-repeat: no-repeat;
+    background-position: -5% 13%, 54% 69%, 84% 0;
+    background-size: 31%,8%, 36%;
+}
+
+#section-1-body {
+    width: 60%;
+}
+
+#section-1-greetings {
+    font-size: 100px;
+}
+
+#section-1-greetings span {
+    border-bottom: 5px solid #4ee49d;
+}
+
+#section-1-body {
+    width: 60%;
+}
+
+#section-1-body p{
+    width: 60%;
+}
+
+#button_contact_me {
+    text-transform: uppercase;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    padding: 0;
+    border: none;
+    padding-bottom: 10px;
+    border-bottom: 4px solid #4ee49d;
+}
+
+#button_contact_me:hover {
+    color: grey;
+}
+
+.hr-divider {
+    border-top: 3px solid white;
+    margin: 0 10%;
+    opacity: 100;
+}
+
+/* SECTION 2 */
+
+#section-2 {
+    padding: 5% 10%;
+    color: white;
+}
+
+#section-2-body {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+}
+
+#section-2-body h1 {
+    font-size: 60px;
+}
+
+/* SECTION 3 */
+
+#section-3 {
+    padding: 5% 10% 0;
+    color: white;
+}
+
+#section-3-header {
+    padding-bottom: 100px;
+}
+
+#section-3-header h1{
+    display: inline;
+}
+
+#section-3-header button{
+    float: right;
+    margin-top: 30px;
+}
+
+#section-3 h1{
+    font-size: 100px;
+}
+
+#section-3-body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    text-transform: uppercase !important;
+}
+
+#section-3-content {
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+#section-3-content img {
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+.section-3-language {
+    display: flex;
+}
+
+.section-3-language p {
+    margin-right: 20px;
+}
+
+/* FOOTER */
+
+footer {
+    padding: 5% 10%;
+    height: 70vh;
+    color: white;
+    background-color: #242424;
+    background-image: url("assets/images/pattern-rings.svg");
+    background-repeat: no-repeat;
+    background-position: -15% 50%;
+    background-size: 31%;
+}
+
+footer h1 {
+    font-size: 100px;
+}
+
+#footer-body {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-content{
+    width: 50%;
+}
+
+#contact-p {
+    width: 70%
+}
+
+.footer-content.inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-content.inputs input,.footer-content.inputs textarea{
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid white;
+    padding: 20px;
+    margin: 10px;
+    color: white;
+}
+
+.footer-content.inputs textarea {
+    min-height: 200px;
+    max-height: 200px;
+}
+
+.footer-content.inputs .button-1 {
+    float: right;
+}
+
+#footer-content-buttons {
+    padding-top: 50px;
+}
+
+.hr-divider-footer {
+    border-top: 3px solid white;
+    opacity: 100;
+}
