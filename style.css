@@ -138,15 +138,16 @@ nav {
     grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
     text-transform: uppercase !important;
+    grid-gap: 30px;
 }
 
 #section-3-content {
-    width: 90%;
+    width: 100%;
     margin-bottom: 50px;
 }
 
 #section-3-content img {
-    width: 90%;
+    width: 100%;
     margin-bottom: 30px;
 }
 
