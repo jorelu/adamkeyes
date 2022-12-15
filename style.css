@@ -94,10 +94,17 @@ nav {
 }
 
 /* SECTION 2 */
+.hr-divider.section-2 {
+    display: none;
+}
 
 #section-2 {
     padding: 5% 10%;
     color: white;
+    background-image: url("assets/images/pattern-rings.svg");
+    background-repeat: no-repeat;
+    background-position: 120% 90%;
+    background-size: 31%;
 }
 
 #section-2-body {
@@ -264,6 +271,19 @@ footer h1 {
 
     /* SECTION 2 */
 
+    .hr-divider.section-2 {
+        display: none;
+    }
+
+    #section-2 {
+        padding: 5% 5%;
+        color: white;
+        background-image: url("assets/images/pattern-rings.svg");
+        background-repeat: no-repeat;
+        background-position: 200% 100%;
+        background-size: 60%;
+    }
+
     #section-2-body {
         display: grid;
         grid-template-columns: repeat(2, 2fr);
@@ -354,6 +374,15 @@ footer h1 {
     }
 
     /* SECTION 2 */
+
+    #section-2 {
+        padding: 5% 5%;
+        color: white;
+        background-image: url("assets/images/pattern-rings.svg");
+        background-repeat: no-repeat;
+        background-position: -100% 100%;
+        background-size: 150%;
+    }
 
     #section-2-body {
         display: grid;
