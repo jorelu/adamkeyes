@@ -237,7 +237,7 @@ footer h1 {
 
 /* Tablet */
 
-@media only screen and (max-width: 1180px) {
+@media only screen and (max-width: 1200px) {
     nav {
         padding: 10px 5%;
     }
@@ -253,8 +253,8 @@ footer h1 {
     /* SECTION 1 */
     #section-1 {
         background-image: url("assets/images/pattern-rings.svg"),url("assets/images/pattern-circle.svg"), url("assets/images/image-profile-tablet.webp");
-        background-size: 31%,2%, 30%;
-        background-position: -5% 13%, 54% 69%, 88% 0;
+        background-size: 70%,10%, 30%;
+        background-position: -130% 13%, 105% 81%, 100% 0;
     }
 
     #section-1 h1 {
@@ -276,11 +276,21 @@ footer h1 {
 
     /* FOOTER */
 
+    footer {
+        background-position: -140% 80%;
+        background-size: 70%;
+        padding: 2% 10%;
+    }
+
     #footer-body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+
+    .footer-content {
+        width: 100%;
     }
 
     #contact-p {
@@ -323,8 +333,8 @@ footer h1 {
     /* SECTION 1 */
     #section-1 {
         background-image: url("assets/images/pattern-rings.svg"),url("assets/images/pattern-circle.svg"), url("assets/images/image-profile-mobile.webp");
-        background-size: 90%, 30%, 50%;
-        background-position: -500% 20%, 120% 40%, 50% 0;
+        background-size: 99%, 30%, 50%;
+        background-position:-5000% 20%, 120% 40%, 50% 0;
         height: auto;
     }
 
@@ -393,6 +403,12 @@ footer h1 {
     }
 
     /* FOOTER */
+
+    footer {
+        background-position: 220% 65%;
+        background-size: 150%;
+        padding: 2% 5%;
+    }
 
     #footer-body {
         flex-direction: column;
