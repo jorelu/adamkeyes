@@ -48,8 +48,8 @@ nav {
     padding: 15vh 10%;
     background-image: url("assets/images/pattern-rings.svg"),url("assets/images/pattern-circle.svg"), url("assets/images/image-profile-desktop.webp");
     background-repeat: no-repeat;
-    background-position: -5% 13%, 54% 69%, 84% 0;
-    background-size: 31%,8%, 36%;
+    background-size: 31%,8%, 25%;
+    background-position: -5% 13%, 64% 69%, 84% 0;
 }
 
 #section-1-body {
